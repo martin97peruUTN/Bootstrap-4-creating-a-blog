@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Blog con Bootstrap 4</title>
+    <meta name="description" content="Curso de Bootstrap Gratis">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,Bootstrap">
+    <meta name="author" content="Martin Perussini">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .slider{
+            background: url("images/bg-3.png");
+            background-size: cover;
+            background-position: center; 
+            height: 400px;
+        }
+    </style> 
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <!-- Menu -->
+    <div class="container-fluid bg-dark fixed-top text-center">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+            <a class="navbar-brand" href="#">
+                <img src="images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Bootstrap
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ml-auto"> <!-- margin left auto, para tirar todo a la derecha -->
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link mr-md-4" href="#">Disabled</a><!-- md es para que el margen solo lo tenga cuando sea grande -->
+                    <div><a href="#" class="btn btn-danger">Contacto</a></div>
+                </div>
+                <!-- <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                </ul> -->
+                <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
+            </div>
+        </nav>
+    </div>
+    <!-- Fin menu -->
+
+    <!-- Slider -->
+    <div class="container-fluid slider d-flex flex-column justify-content-center align-items-center"> <!-- slider es una clase "inventada", ver el style en el head del documento -->
+        <div class="text-center text-white">
+            <h3 class="d-none d-sm-block">Lorem ipsum dolor sit amet.</h3>
+            <h1 class="display">Lorem, ipsum dolor.</h1>
+            <p class="lead d-none d-sm-block">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+        <form action="" class="form-inline d-flex flex-column flex-sm-row">
+            <div class="form-group mr-sm-4">
+                <input type="text" placeholder="Lorem ipsum dolor" class="form-control" name="" id="">
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-danger" value="Enviar">
+            </div>
+        </form>
+    </div>
+    <!-- Fin slider -->
+
+    <!-- Main -->
+    <div class="container mb-5">
+        <h3>Blog</h3>
+        <p class="lead">Escrito por Martin Perussini</p>
+        <hr>
+        <div class="row">
+            <!-- Articulos -->
+            <div class="col-12 col-md-9">
+                <!-- 1 articulo -->
+                <div class="row mb-5">
+                    <div class="col-3">
+                        <img src="images/cards1.png" class="img-fluid" alt="">
+                        <p class="lead text-center">9/3/2021</p>
+                    </div>
+                    <div class="col-9">
+                        <a href="#"><h3>Lorem ipsum dolor sit amet consectetur.</h3></a>
+                        <a href="#"><span class="badge badge-danger">HTML</span></a>
+                        <a href="#"><span class="badge badge-primary">CSS</span></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel eaque illum saepe at laborum nulla consequatur. Culpa, harum commodi. Sequi sed quis voluptate consequuntur, ad quas molestiae alias repellendus, facere excepturi reiciendis rerum ipsa ut nisi voluptatibus recusandae? Adipisci fugiat repellendus eaque minima dolorem, laborum nam laudantium quod quis!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, consequatur.</p>
+                        <a href="#" class="btn btn-warning btn-sm text-white">Leer mas...</a>
+                    </div>
+                </div>
+                <!-- Fin 1 articulo -->
+                <!-- 1 articulo -->
+                <div class="row mb-5">
+                    <div class="col-3">
+                        <img src="images/cards1.png" class="img-fluid" alt="">
+                        <p class="lead text-center">9/3/2021</p>
+                    </div>
+                    <div class="col-9">
+                        <a href="#"><h3>Lorem ipsum dolor sit amet consectetur.</h3></a>
+                        <a href="#"><span class="badge badge-danger">HTML</span></a>
+                        <a href="#"><span class="badge badge-primary">CSS</span></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel eaque illum saepe at laborum nulla consequatur. Culpa, harum commodi. Sequi sed quis voluptate consequuntur, ad quas molestiae alias repellendus, facere excepturi reiciendis rerum ipsa ut nisi voluptatibus recusandae? Adipisci fugiat repellendus eaque minima dolorem, laborum nam laudantium quod quis!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, consequatur.</p>
+                        <a href="#" class="btn btn-warning btn-sm text-white">Leer mas...</a>
+                    </div>
+                </div>
+                <!-- Fin 1 articulo -->
+                <!-- 1 articulo -->
+                <div class="row mb-5">
+                    <div class="col-3">
+                        <img src="images/cards1.png" class="img-fluid" alt="">
+                        <p class="lead text-center">9/3/2021</p>
+                    </div>
+                    <div class="col-9">
+                        <a href="#"><h3>Lorem ipsum dolor sit amet consectetur.</h3></a>
+                        <a href="#"><span class="badge badge-danger">HTML</span></a>
+                        <a href="#"><span class="badge badge-primary">CSS</span></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel eaque illum saepe at laborum nulla consequatur. Culpa, harum commodi. Sequi sed quis voluptate consequuntur, ad quas molestiae alias repellendus, facere excepturi reiciendis rerum ipsa ut nisi voluptatibus recusandae? Adipisci fugiat repellendus eaque minima dolorem, laborum nam laudantium quod quis!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, consequatur.</p>
+                        <a href="#" class="btn btn-warning btn-sm text-white">Leer mas...</a>
+                    </div>
+                </div>
+                <!-- Fin 1 articulo -->
+                <!-- Bottom group (menu de numeros) -->
+                <div class="btn-toolbar d-flex justify-content-center mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group mr-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-secondary active">Inicio</button>
+                        <button type="button" class="btn btn-secondary">1</button>
+                        <button type="button" class="btn btn-secondary">2</button>
+                        <button type="button" class="btn btn-secondary">3</button>
+                        <button type="button" class="btn btn-secondary">4</button>
+                        <button type="button" class="btn btn-secondary">5</button>
+                        <button type="button" class="btn btn-secondary active">Final</button>
+                    </div>
+                    
+                </div>
+                <!-- Fin bottom group -->
+            </div>
+            <!-- Fin articulos -->
+            <!-- Aside -->
+            <div class="col-12 col-md-3">
+                <!-- Cards (Copiadas y pegadas nomas) -->
+                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                    <h5 class="card-title">Primary card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h5 class="card-title">Secondary card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+                <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h5 class="card-title">Success card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+                <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h5 class="card-title">Danger card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+                <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h5 class="card-title">Warning card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+                <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h5 class="card-title">Info card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+                <div class="card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h5 class="card-title">Light card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                </div>
+                <!-- Fin cards -->
+            </div>
+            <!-- Fin aside -->
+        </div>
+    </div>
+    <!-- Fin main -->
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-white py-3 text-center">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex possimus libero, optio sunt iste inventore assumenda nesciunt expedita fuga vero.</p>
+    </footer>
+    <!-- Fin footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
